@@ -24,11 +24,11 @@ def draw_cat_plot():
     df_cat = df_cat.rename(columns={'value': 'outcome'})  # Remove 'variable': 'feature'
 
     # Create the catplot
-    g = sns.catplot(x="feature", hue="outcome", col="cardio", 
+    g = sns.catplot(x="variable", hue="outcome", col="cardio", 
                     data=df_cat, kind="count", height=5, aspect=1.2)
 
     # Fix axis labels
-    g.set_axis_labels("feature", "count")
+    g.set_axis_labels("variable", "total")
 
     fig = g.fig  # Convert FacetGrid to Figure
 
