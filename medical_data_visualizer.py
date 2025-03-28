@@ -1,10 +1,20 @@
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
 
+
 # 1
-df = None
+df = df = pd.read_csv("medical_examination.csv")
+# Calculate BMI
+df['BMI'] = df['weight'] / ((df['height'] / 100) ** 2)
+
+# Assign overweight: 1 if BMI > 25, else 0
+df['overweight'] = (df['BMI'] > 25).astype(int)
+df['cholesterol'] = (df['cholesterol'] > 1).astype(int)
+df['gluc'] = (df['gluc'] > 1).astype(int)
+
+
 
 # 2
 df['overweight'] = None
