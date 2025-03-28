@@ -21,7 +21,7 @@ def draw_cat_plot():
                       value_vars=['cholesterol', 'gluc', 'smoke', 'alco', 'active', 'overweight'])
 
     # Rename column for compatibility with seaborn
-    df_cat = df_cat.rename(columns={'variable': 'feature', 'value': 'outcome'})
+    df_cat = df_cat.rename(columns={'value': 'outcome'})  # Remove 'variable': 'feature'
 
     # Create the catplot
     g = sns.catplot(x="feature", hue="outcome", col="cardio", 
