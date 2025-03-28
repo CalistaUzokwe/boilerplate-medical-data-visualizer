@@ -18,7 +18,7 @@ df['gluc'] = (df['gluc'] > 1).astype(int)
 def draw_cat_plot():
     # Melt the dataframe for categorical features
     df_cat = pd.melt(df, id_vars=['cardio'], 
-                      value_vars=['cholesterol', 'gluc', 'smoke', 'alco', 'active', 'overweight'])
+                 value_vars=['active', 'alco', 'cholesterol', 'gluc', 'overweight', 'smoke'])
 
     # Rename column for compatibility with seaborn
     df_cat = df_cat.rename(columns={'value': 'outcome'})  # Remove 'variable': 'feature'
