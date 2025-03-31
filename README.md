@@ -37,4 +37,13 @@ LinkedIn:https://www.linkedin.com/in/uzokwecalista/
 
 Portfolio:https://calistauzokwe.caliquantanalytics.com/
 
-Email: calistauzokwe@yahoo.com 
+Email: calistauzokwe@yahoo.com
+
+
+Credit to FreeCodeCamp:
+‎These projects are based on FreeCodeCamp’s Data Analysis with Python curriculum.
+‎
+‎Feel free to contribute or modify the code for learning purposes!
+‎
+‎Author
+‎Calista Uzokwe 
