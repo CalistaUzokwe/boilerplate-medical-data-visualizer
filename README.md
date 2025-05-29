@@ -1,3 +1,7 @@
+## About Me  
+Data Analyst & Accounting Professional skilled in Python, Excel, SQL, and Power BI.  
+Also a Web Designer and Published Author, open to remote work & visa sponsorship opportunities.
+
 # Medical Data Visualizer
 This project is part of freeCodeCamp's Data Analysis with Python course.
 
